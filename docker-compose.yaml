@@ -1,0 +1,23 @@
+version: "24.0.6"
+services:
+#Nom de server eureka
+  discovery:
+    build: C:\Users\derou\Desktop\Tp MicroService\EurekaServer #url de projet
+    ports:
+      - "8761:8761" #premier port pour docker 2 pour localhost
+    image: "eureka"
+  cours:
+    build: C:\Users\derou\Desktop\Tp MicroService\msCandidat
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8001:8088"
+    image: "cours-service"
+
+  category:
+    build: C:\Users\derou\Desktop\Tp MicroService\test-cours
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8002:8089"
+    image: "category-service"
