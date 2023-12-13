@@ -1,4 +1,4 @@
-package com.example.mscandidat;////////////////////////
+package com.example.mscandidat;//////////////////////////////////
 //////////////:mmmmmmmmm
 import com.example.mscandidat.Entity.Candidat;
 import com.example.mscandidat.Repository.CandidatRepository;
