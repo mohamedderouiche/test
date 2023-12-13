@@ -1,5 +1,5 @@
 package com.example.mscandidat;//////////////////////////////////
-//////////////:mmmmmmmmmMMM@lll@
+//////////////:mmmmmmmmmMMM@lll@lllllllllll
 import com.example.mscandidat.Entity.Candidat;
 import com.example.mscandidat.Repository.CandidatRepository;
 import org.springframework.beans.factory.annotation.Autowired;
