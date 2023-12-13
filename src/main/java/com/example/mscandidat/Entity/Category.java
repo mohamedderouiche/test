@@ -1,5 +1,6 @@
 package com.example.mscandidat.Entity;
-
+////ikram test 
+////ikram test 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
